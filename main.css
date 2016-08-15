@@ -8,26 +8,23 @@
 }
 
 .top-bar-item {
+    color: white;
     display: inline;
-    font-size: 1.2em;
+    font-size: 2em;
     padding-left: 2%;
     padding-right: 2%;
-    display: inline;
 }
 
 .top-bar-item a:hover {
+    color: white;
     text-decoration: none;
-    color: deepskyblue
 }
 
 .brand-item {
-    font-weight: 400;
-    font-size: 1.3em;
+    font-size: 2em;
     display: inline;
-    font-size: 1.2em;
     padding-left: 2%;
     padding-right: 2%;
-    display: inline;
     color:white;
 }
 
@@ -35,6 +32,7 @@
     background-image: url("http://i.imgur.com/AI2HZED.jpg");
     background-position: center;
     height: 100vh;
+    background-size: cover;
     width: auto;
     z-index: 4;
     display: block;
@@ -44,6 +42,7 @@
 .section-two {
     background-image: url("http://i.imgur.com/ipqicfm.jpg");
     background-position: center;
+    background-size: cover;
     height: 100vh;
     width: auto;
     z-index: 4;
@@ -51,6 +50,23 @@
     position: relative;
 }
 
-#hero-h1 {
-    padding-top:25%;
+.contact-items {
+    padding-top: 25%;
+}
+
+.social-contact {
+    color: white;
+    padding: 6%;
+}
+.social-contact:hover {
+    color: deepskyblue;
+}
+
+.top-nav-link:visited {
+    text-decoration: none;
+    color: white;
+}
+.top-nav-link:visited{
+    text-decoration:none;
+    color: white;
 }
