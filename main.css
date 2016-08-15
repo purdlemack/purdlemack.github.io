@@ -1,0 +1,56 @@
+.nav {
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 1%;
+    display: block;
+    position: fixed;
+    width:100%;
+}
+
+.top-bar-item {
+    display: inline;
+    font-size: 1.2em;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline;
+}
+
+.top-bar-item a:hover {
+    text-decoration: none;
+    color: deepskyblue
+}
+
+.brand-item {
+    font-weight: 400;
+    font-size: 1.3em;
+    display: inline;
+    font-size: 1.2em;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline;
+    color:white;
+}
+
+.section-one {
+    background-image: url("http://i.imgur.com/pWNgnmO.jpg");
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    z-index: 4;
+    display: block;
+    position: relative;
+}
+
+.section-two {
+    background-image: url("http://i.imgur.com/ipqicfm.jpg");
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    z-index: 4;
+    display: block;
+    position: relative;
+}
+
+#hero-h1 {
+    padding-top:25%;
+}
