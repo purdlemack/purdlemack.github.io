@@ -1,27 +1,24 @@
 .nav {
-    z-index: 5;
+    z-index: 6;
     background: rgba(0, 0, 0, 0.5);
     padding-top: 1%;
     display: block;
-    position: fixed;
     width:100%;
 }
 
 .top-bar-item {
-    color: white;
     display: inline;
-    font-size: 2em;
+    font-size: 1.6em;
     padding-left: 2%;
     padding-right: 2%;
 }
 
 .top-bar-item a:hover {
-    color: white;
     text-decoration: none;
 }
 
 .brand-item {
-    font-size: 2em;
+    font-size: 1.6em;
     display: inline;
     padding-left: 2%;
     padding-right: 2%;
@@ -39,23 +36,11 @@
     position: relative;
 }
 
-.section-two {
-    background-image: url("http://i.imgur.com/ipqicfm.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: auto;
-    z-index: 4;
-    display: block;
-    position: relative;
-}
-
 .contact-items {
     padding-top: 25%;
 }
 
 .social-contact {
-    color: white;
     padding: 6%;
 }
 .social-contact:hover {
@@ -66,7 +51,31 @@
     text-decoration: none;
     color: white;
 }
-.top-nav-link:visited{
-    text-decoration:none;
+
+.top-bar {
+    background-color:black;
+    width:auto;
+    padding-right: 30px;
+}
+
+.top-bar-social {
+    padding: 5px;
     color: white;
+}
+.top-bar-social:hover{
+    color:deepskyblue;
+}
+
+.text-right {
+    padding-right: 
+}
+
+.top-left {
+    width:25%;
+    position:absolute;
+}
+
+.top-right {
+    width:75%;
+    position:absolute;
 }
