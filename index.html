@@ -27,9 +27,7 @@
 
     <div class="jumbotron">
 
-        <a href="/sjpurdie.com/productpage.html">
-            <button class="btn btn-outline-danger">Product Page</button>
-        </a>
+
         <h1 class="display-3">SEO &amp; Content Marketing</h1>
         <hr>
         <h2 class="display-4" id="subhead">Boost your website's traffic.</h2>
@@ -38,6 +36,20 @@
             <button type="button" class="btn btn-outline-success" id="contact">Contact</button>
         </a>
         <hr>
+        <script>
+            $(document).ready(function() {
+                $('#read').click(function() {
+                    $('#subhead').html("Get the leads you deserve");
+                });
+                $('#contact').click(function() {
+                    $('#subhead').html("Why wait any longer?"),
+
+                        $('#contact-email').css("display", "inline");
+
+                });
+            })
+
+        </script>
         <form class="form-inline" id="contact-email">
             <div class="form-group">
                 <label for="exampleInputName2">Name</label>
@@ -49,6 +61,14 @@
                 <button type="submit" class="btn btn-outline-primary">Send</button>
             </div>
             <hr>
+
+
         </form>
+        <a href="/productpage.html">
+            <button class="btn btn-outline-danger">Product Page</button>&nbsp;
+        </a>
+        <a href="apppage.html">
+            <button class="btn btn-outline-danger">App Page</button>
+        </a>
         <!--</div>-->
     </div>

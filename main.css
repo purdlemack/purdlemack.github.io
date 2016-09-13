@@ -37,7 +37,6 @@ body {
     display: none;
     transition: 2s;
 }
-=======
   background-color: #fff;
   font-family: "Lato", sans-serif; }
 
@@ -66,15 +65,6 @@ body {
   font-family: "Lato", sans-serif; }
   .brand-name h1 {
     font-size: 4em; }
-
-#sticky {
-  border-radius: 0.5ex; }
-  #sticky #sticky.stick {
-    margin-top: 0 !important;
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    border-radius: 0 0 0.5em 0.5em; }
 
 nav {
   display: block;
